@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/sbj.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <title>Document</title>
+</head>
+<header>
+    <nav class="navbar fixed-top navbar-dark bg-primary justify-content-end">
+        <a class="nav-link aktif" href="#">Login</a>
+        <a class="nav-link" href="#">Sign Up</a>
+    </nav>
+</header>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="row">
+            <form>
+                <div class="form-group row" style="width: 30vw;">
+                    <label for="inputUsername" class="col-3 col-form-label">Username</label>
+                    <div class="col-9">
+                        <input type="text" class="form-control" id="inputUsername" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-3 col-form-label">Password</label>
+                    <div class="col-9">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="">
+                    </div>
+                </div>
+                <a href="#"><small id="forgotPassword" class="form-text text-muted">Forgot Password?</small></a>
+                <div class="row justify-content-md-center">
+                    <button type="submit" class="btn btn-primary btn-long">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

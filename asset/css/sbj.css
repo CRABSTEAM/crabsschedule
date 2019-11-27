@@ -1,0 +1,32 @@
+.nav-link {
+    color: #eeeeee;
+}
+.nav-link:hover {
+    color: #ffffff;
+}
+.aktif {
+    color: #ffffff;
+    font-weight: bold;
+}
+.title h1,.title p {
+    text-align: center;
+}
+body {
+    background-color: #fafafa;
+}
+.friendBox {
+    padding: 10px;
+    background-color: #ffffff;
+    height: 125px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.friendBox button {
+    height: 40px;
+}
+.btn-long {
+    width: 250px;
+}
+.btn-short {
+    width: 110px;
+}
